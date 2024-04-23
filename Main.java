@@ -1,0 +1,10 @@
+import java.lang.Math
+/**
+ * Executar o
+ */
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("");
+    }
+    
+}
