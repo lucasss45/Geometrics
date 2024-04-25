@@ -1,10 +1,7 @@
-import java.lang.Math
+import java.lang.Math;
 import java.util.Scanner;
-/**
- * Executar o
- */
 
-// GeoEspacial.java
+
 
 public class Main {
     public static void main(String[] args) {
