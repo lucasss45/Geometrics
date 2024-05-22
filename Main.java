@@ -20,7 +20,7 @@ public class Main {
             figura = scanner.nextLine();
 
             if (figura.equalsIgnoreCase("plana")) {
-                GeoPlana geoPlana = new GeoPlana();
+                geoPlana geoPlana = new GeoPlana();
                 // Chamar método para calcular área
                 System.out.println("A área é: " + geoPlana.calcularArea());
             } else if (figura.equalsIgnoreCase("espacial")) {
