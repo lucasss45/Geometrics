@@ -12,7 +12,7 @@ public class Main {
             System.out.print("\033[H\033[2J");
             System.out.flush();
 
-            System.out.println("Bem-vindo ao app de cálculo de formas geométricas!");
+            System.out.println("Hora de calcular formas geométricas!");
 
             System.out.print("Qual figura geométrica você gostaria de calcular (plana/espacial)? ");
             figura = scanner.nextLine();
