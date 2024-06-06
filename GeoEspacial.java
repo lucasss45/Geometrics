@@ -2,7 +2,7 @@ import java.lang.Math;
 
 public class GeoEspacial extends Geometrica {
     public double calcularAreaCirculo(double raio) {
-        return Math.PI * Math.pow(raio, 2);
+        return 3.14 * Math.pow(raio, 2); // Usando π como 3,14
     }
 
     public double calcularAreaRetangulo(double base, double altura) {
@@ -18,7 +18,7 @@ public class GeoEspacial extends Geometrica {
     }
 
     public double calcularPerimetroCirculo(double raio) {
-        return 2 * Math.PI * raio;
+        return 2 * 3.14 * raio; // Usando π como 3,14
     }
 
     public double calcularPerimetroRetangulo(double base, double altura) {
@@ -41,6 +41,14 @@ public class GeoEspacial extends Geometrica {
         return areaTotal;
     }
 
+    public double calcularVolumeCubo(double lado) {
+        return Math.pow(lado, 3);
+    }
+
+    public double calcularVolumeEsfera(double raio) {
+        return (4.0/3.0) * 3.14 * Math.pow(raio, 3);
+    }
+
     @Override
     public double calcularArea() {
         // Implementação específica não definida
@@ -49,6 +57,11 @@ public class GeoEspacial extends Geometrica {
 
     @Override
     public double calcularPerimetro() {
+        // Implementação específica não definida
+        return 0;
+    }
+
+    public double calcularVolume() {
         // Implementação específica não definida
         return 0;
     }
